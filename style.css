@@ -56,7 +56,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff6347;
+    color: #800080;
 }
 
 .bio {
@@ -108,7 +108,7 @@ nav ul li a:hover {
 }
 
 .beauty {
-    color: #ff6347;
+    color: #4b4a98;
     font-weight: bold;
 }
 
@@ -165,14 +165,14 @@ h4 {
 }
 
 form {
-    max-width: 650px;
+    max-width: 500px;
     margin: 24px auto;
 }
 
 form label {
     display: block;
     margin-bottom: 8px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 form input, form textarea, form button {
@@ -185,12 +185,12 @@ form input, form textarea, form button {
 }
 
 form input:focus, form textarea:focus {
-    border-color: #007bff;
+    border-color: #404040;
     outline: none;
 }
 
 form button {
-    background-color: #007bff;
+    background-color: #404040;
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -200,11 +200,11 @@ form button {
 }
 
 form button:hover {
-    background-color: #0056b3;
+    background-color: #808080;
 }
 
 form button:active {
-    background-color: #004085;
+    background-color: #696969;
 }
 
 footer {
