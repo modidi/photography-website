@@ -73,8 +73,8 @@ nav ul li a:hover {
 }
 
 .bio-image img {
-    width: 200px;
-    height: 200px;
+    width: 10%;
+    height: 10%;
     border-radius: 50%;
     object-fit: cover;
 }
