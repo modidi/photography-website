@@ -37,7 +37,6 @@ header {
 nav ul{
     list-style: none;
     display: flex;
-    background-color: #4b4d4e; 
     padding: 15px 0;
 
 }
@@ -61,29 +60,38 @@ nav ul li a:hover {
 }
 
 .bio {
-    text-align: center;
-    padding: 40px 20px;
-    background-color: #f4f4f4;
-    margin: 20px;
-    border-radius: 8px;
+
+    padding: 60px 20px;
 }
 
-.bio h2 {
+.bio-cont  {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.bio-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.bio-text h2 {
     margin-bottom: 20px;
-    color: #333;
-    font-size: 30px;
 }
 
-.bio p {
-    font-size: 18px;
-    color: #555;
+.bio-text p {
+    margin-bottom: 15px;
     line-height: 1.6;
 }
 
-h2 {
-    color: #000;
-    text-align: center;
+.bio-text ol {
+    padding-left: 20px;
 }
+
 
 .gallery {
 
@@ -99,6 +107,7 @@ h2 {
     height: 90%;
     padding: 40px;
     border-radius: 30px;
+
 }
 
 footer {
