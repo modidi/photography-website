@@ -69,21 +69,25 @@ nav ul li a:hover {
     align-items: center;
     gap: 40px;
     max-width: 900px;
-    margin:  auto;
+    margin: 50px auto;
     padding: 0 20px;
 }
 
-.bio-image {
-    width: 60px;
-    flex: 0 0 auto; 
+.bio-img {
+    flex: 0 0 80px; 
 }   
 
-.bio-image img {
-    width: 60px;
-    height: 60px;
+.bio-img img {
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     object-fit: cover;
     display: block;
+    transition: 0.3s ease ;
+}
+.bio-img img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .bio-text {
