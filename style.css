@@ -144,12 +144,13 @@ h4 {
 
 .paragraph {
     max-width: 800px;
-    margin: 30px auto;
+    margin: 20px auto;
     padding: 0 20px;
     color: #fffaff;
     line-height: 1.6;
     text-align: justify;
     font-size: larger;
+    text-align: center;
 }
 
 .gallery {
@@ -177,6 +178,7 @@ h4 {
 .contact {
     padding: 40px 20px;
     text-align: center;
+    font-size: x-large;
 }
 
 form {
