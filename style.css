@@ -214,7 +214,7 @@ form input:focus, form textarea:focus {
 form button {
     background-color: #404040;
     color: white;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: bold;
     border: none;
     transition: background-color 0.3s ease;
