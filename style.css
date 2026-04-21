@@ -103,8 +103,9 @@ nav ul li a:hover {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 .bio-text h2 {
-    color: #333;
+    color: #c8a2c8;
     margin-bottom: 10px;
+    text-decoration: underline;
 }
 
 .beauty {
@@ -115,8 +116,11 @@ nav ul li a:hover {
 .bio-text h3 {
     margin-bottom: 10px;
     margin-top: 15px;
-    color: #555;
+    color: #d8bfd8;
+    font-size: large;
+    text-decoration: underline;
 }
+
 .bio-text p {
     color: #555;
     margin-bottom: 15px;
